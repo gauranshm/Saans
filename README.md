@@ -1,225 +1,119 @@
-<div align="center">
+# SAANS website (Next.js)
 
-<img src="screenshots/hero-light.png" alt="Saans — light mode landing page" width="100%" />
+The SAANS marketing site, rebuilt from the SAANS design handoff (reference HTML + playbook).
+The handoff itself is kept outside this repo (`design_handoff/` is git-ignored); copy is kept word for word.
 
-# saans
+Next.js 16 App Router · React 19 · TypeScript · CSS Modules · no UI framework.
 
-### Everyone deserves someone to talk to.
-
-A gentle, language-inclusive emotional companion designed for the moments in between — with a thoughtful path to professional support when you need more.
-
-<p>
-  <a href="https://github.com/gauranshm/Saans"><strong>Explore the repository</strong></a>
-  ·
-  <a href="#-screenshots">View screenshots</a>
-  ·
-  <a href="#-getting-started">Get started</a>
-</p>
-
-![Responsive](https://img.shields.io/badge/Experience-Responsive-8F7CC8?style=for-the-badge)
-![Themes](https://img.shields.io/badge/Themes-Light%20%2F%20Dark-514477?style=for-the-badge)
-![Focus](https://img.shields.io/badge/Designed%20for-Emotional%20Support-E8B7A8?style=for-the-badge)
-
-</div>
-
----
-
-## ✨ About Saans
-
-**Saans is built around a simple belief: nobody should have to face difficult moments completely alone.**
-
-It presents a calm, approachable space where people can begin with a few words, choose text or voice when available, try a short breathing exercise, and discover a route to qualified professionals for additional support.
-
-The experience is intentionally warm and human-centred — not clinical, noisy, or overwhelming.
-
-> *Take a breath. Then tell us about your day.*
-
-## 🌿 What makes it special
-
-- **A companion, not a chatbot** — a welcoming conversation-first experience.
-- **Text and voice-led interactions** — designed to make opening up feel more natural.
-- **A language-inclusive vision** — the interface highlights support in Indian languages.
-- **One-minute breathing break** — a small, guided pause for a busy or heavy moment.
-- **A path to professional care** — discover a suitable professional and explore session options.
-- **Privacy-conscious experience** — clear privacy controls and honest communication about limits.
-- **Light and dark themes** — a consistent visual identity across both appearances.
-- **Responsive layouts** — desktop and mobile screens designed to feel intentional.
-
-> **Product note:** Some screens show planned or illustrative experiences. Actual availability of voice conversations, AI features, professional bookings, encryption, and data controls depends on the implementation and deployed services. The UI alone should not be taken as proof that a capability is live or that a particular security guarantee is in place.
-
-## 🖼️ Screenshots
-
-### The landing experience
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/hero-light.png" alt="Saans landing page in light mode" />
-      <p align="center"><sub><strong>Light mode</strong> · Calm lavender surfaces and soft contrast</sub></p>
-    </td>
-    <td width="50%">
-      <img src="screenshots/hero-dark.png" alt="Saans landing page in dark mode" />
-      <p align="center"><sub><strong>Dark mode</strong> · Deep plum surfaces with lilac accents</sub></p>
-    </td>
-  </tr>
-</table>
-
-### Explore the experience
-
-<table>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/what-it-does.png" alt="Saans feature cards for conversation, languages, breathing, patterns and voice" />
-      <p align="center"><sub><strong>Features</strong> · Conversation, language, breathing and voice concepts</sub></p>
-    </td>
-    <td width="50%">
-      <img src="screenshots/who-its-for-dark.png" alt="Saans support paths in dark mode" />
-      <p align="center"><sub><strong>Support that meets you where you are</strong></sub></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <img src="screenshots/journey.png" alt="Saans user journey from discovery to ongoing support" />
-      <p align="center"><sub><strong>The journey</strong> · From first hello to ongoing care</sub></p>
-    </td>
-    <td width="50%">
-      <img src="screenshots/privacy-story-dark.png" alt="Saans privacy and story sections in dark mode" />
-      <p align="center"><sub><strong>Privacy & story</strong> · Thoughtful controls and product values</sub></p>
-    </td>
-  </tr>
-</table>
-
-### Mobile-first details
-
-<table>
-  <tr>
-    <td width="33%">
-      <img src="screenshots/mobile-hero.png" alt="Saans mobile landing page" />
-      <p align="center"><sub><strong>Mobile landing</strong></sub></p>
-    </td>
-    <td width="33%">
-      <img src="screenshots/mobile-menu.png" alt="Saans mobile navigation menu" />
-      <p align="center"><sub><strong>Navigation</strong></sub></p>
-    </td>
-    <td width="33%">
-      <img src="screenshots/mobile-dock-dark.png" alt="Saans mobile bottom navigation in dark mode" />
-      <p align="center"><sub><strong>Mobile navigation dock</strong></sub></p>
-    </td>
-  </tr>
-</table>
-
-### Small moments that matter
-
-<table>
-  <tr>
-    <td width="33%">
-      <img src="screenshots/popup-breath.png" alt="Guided breathing exercise popup" />
-      <p align="center"><sub><strong>Breathing exercise</strong></sub></p>
-    </td>
-    <td width="33%">
-      <img src="screenshots/popup-coming-soon.png" alt="Saans coming soon dialog" />
-      <p align="center"><sub><strong>Coming soon state</strong></sub></p>
-    </td>
-    <td width="33%">
-      <img src="screenshots/popup-care-dark.png" alt="Professional care booking dialog in dark mode" />
-      <p align="center"><sub><strong>Professional care</strong></sub></p>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary><strong>View the full-page design</strong></summary>
-  <br />
-  <img src="screenshots/full-page.jpg" alt="Full Saans landing page from hero to footer" width="100%" />
-</details>
-
-## 🎨 Design direction
-
-| Element | Direction |
-|---|---|
-| **Personality** | Warm, reassuring, thoughtful, non-judgmental |
-| **Palette** | Lavender, soft lilac, deep plum, warm peach |
-| **Layout** | Spacious sections, rounded cards, clear visual hierarchy |
-| **Interaction style** | Gentle calls to action, quiet transitions, focused dialogs |
-| **Accessibility goal** | Readable contrast, responsive layouts, clear labels and controls |
-
-## 🧭 Experience map
-
-1. **Discover** — learn what Saans offers at your own pace.
-2. **Set up** — choose language, tone, and available privacy preferences.
-3. **Connect** — begin with a text or voice conversation when supported.
-4. **Reflect** — explore a breathing exercise or other check-in tools.
-5. **Personalise** — adjust the experience using the information you choose to share.
-6. **Get more support** — explore professional support when it may be helpful.
-7. **Continue** — return to tools and conversations as the product supports them.
-
-## 🧰 Tech stack
-
-The screenshots communicate the product and design direction, but the repository's current implementation details should be verified before listing frameworks or services here. Add the exact stack used by the project, for example:
-
-- Frontend: `your framework`
-- Styling: `your styling solution`
-- Backend / API: `your backend, if any`
-- AI / voice: `your model and speech services, if any`
-- Storage / authentication: `your chosen services, if any`
-
-## 🚀 Getting started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/gauranshm/Saans.git
-cd Saans
-```
-
-Then install dependencies and start the project using the commands configured in the repository. For a JavaScript project, this is commonly:
+## Run
 
 ```bash
 npm install
-npm run dev
+cp .env.example .env.local   # then fill in the values, see "Waitlist setup"
+npm run dev                  # http://localhost:3000
+npm run build && npm start   # production
 ```
 
-Open the local URL printed in your terminal. If these commands do not match the current project scripts, check `package.json` or the project's setup instructions and use the documented commands instead.
+The waitlist forms need Supabase. Until it is configured they show an error, never a fake success.
+The clinician and college forms are separate: without `NEXT_PUBLIC_FORM_ENDPOINT` they still simulate
+success after 700 ms and **send nothing anywhere**.
 
-## 🗺️ Roadmap ideas
+## Waitlist setup
 
-- [ ] Complete and test the conversation experience
-- [ ] Add robust voice input and playback, with clear microphone permissions
-- [ ] Expand language support and verify translations with native speakers
-- [ ] Build and test professional discovery and booking flows
-- [ ] Publish transparent privacy, retention, and deletion policies
-- [ ] Add accessibility checks for keyboard navigation and reduced motion
-- [ ] Add automated tests and production deployment instructions
+The modal and the home page form both POST to the site's own `/api/waitlist`, which writes to the
+`public.waitlist` table with the secret key. The browser never talks to Supabase, and the table has RLS on
+with no policies and no privileges for `anon` or `authenticated`.
 
-## 💜 Guiding principles
+**1. The table** is already created on the project. Its migration is kept out of this repo
+(`supabase/migrations/` is git-ignored), so a new project needs that file from the team, run once in the
+dashboard's SQL Editor.
 
-- **Listen without judgement.**
-- **Make the next step feel manageable.**
-- **Be clear about what the product can and cannot do.**
-- **Respect the user's choice and privacy.**
-- **Encourage qualified help when a conversation is not enough.**
+**2. Set the env vars** in the host's settings (and in `.env.local` for local runs):
 
-Saans is intended to complement—not replace—qualified mental-health care. If someone is in immediate danger or may harm themselves, they should contact local emergency services or a trusted person who can help right away.
+| Variable | Where to find it |
+|---|---|
+| `SUPABASE_URL` | Project Settings → Data API → Project URL |
+| `SUPABASE_SECRET_KEY` | Project Settings → API Keys → a secret key (`sb_secret_…`), or the legacy `service_role` key |
+| `TRUSTED_CLIENT_IP_HEADER` | Optional. Leave unset on Vercel. On Netlify: `x-nf-client-connection-ip` |
 
-## 🤝 Contributing
+The secret key bypasses RLS: keep it server-side and never give it a `NEXT_PUBLIC_` prefix.
 
-Ideas, fixes, accessibility improvements, and thoughtful feedback are welcome.
+**Limits to know about:** rate limiting is in-memory, so on serverless each instance counts on its own
+(details in `src/lib/waitlist/rate-limit.ts`). To remove someone from the list, delete their row in the SQL
+Editor; the server's key deliberately can only read and insert.
 
-1. Fork the repository.
-2. Create a branch for your change.
-3. Make and test your updates.
-4. Open a pull request with a clear description and screenshots for UI changes.
+### Testing it
 
-## 📄 License
+`tests/waitlist.e2e.mjs` drives the real forms in a browser against a production build and a real database.
+Nothing is mocked. It needs Edge and `playwright-core` (paths at the top of the script, or set
+`WAITLIST_TEST_BROWSER` and `WAITLIST_TEST_PLAYWRIGHT_FROM`), free ports 3300–3304, and a git-ignored
+`.env.test.local`:
 
-Add the project's chosen license here. Until a license is included in the repository, reuse and redistribution permissions may be limited.
+```bash
+WAITLIST_TEST_DATABASE_URL=   # Postgres connection string (hosted: dashboard, Connect, Session pooler)
+WAITLIST_TEST_PUBLISHABLE_KEY= # publishable key (or WAITLIST_TEST_ANON_KEY on older projects), used to prove it is locked out
+```
 
----
+Local stack (needs Docker): `npx supabase start`, then `npx supabase status -o env` for all the values.
+`SUPABASE_URL` is `API_URL`, `SUPABASE_SECRET_KEY` is `SECRET_KEY`, and the database URL is `DB_URL`.
 
-<div align="center">
+```bash
+npm run build && npm run test:waitlist
+```
 
-**saans** · *A little space to breathe. Someone to talk to.*
+Against a hosted project it writes only rows with a per-run `e2e-…@example.com` address and deletes those at the end.
 
-Made with care. 💜
+## Pages
 
-</div>
+| Route | What |
+|---|---|
+| `/` | Hero, Problem, Solution (+film), Who, For you (tabs), Clinicians, Colleges (tabs), Privacy preview, Where we're going, Survey, Join |
+| `/privacy` | Privacy card, what we collect, who sees what, safety, promises |
+| `/help` | Helplines (no waitlist button) |
+| `/about` | Story, promise & vision, team |
+| `/faq` | 8-question accordion |
+| `/privacy-policy`, `/terms` | Placeholders |
+
+## Structure
+
+```
+src/
+  app/                 routes (api/waitlist is the signup endpoint), layout (fonts, theme bootstrap, header/footer/modals), globals.css (tokens)
+  components/
+    layout/            Header, MobileMenu, ThemeToggle, Footer, Providers
+    home/              one component per home section
+    privacy/ pages/    page sections
+    shared/            Icon, Logo, Devices (Laptop/PhoneFrame), Helplines, PrivacyCard, Faq, Actions
+    modals/            ModalShell + Waitlist, Clinician, College, Breath, Help, Film
+  context/             Theme, Modal (+ form state), UI (For-you tab, menu), Toast
+  hooks/               useReveal (reveal, count-up, bar grow, parallax), useBreath, useFocusTrap, useMediaQuery
+  lib/                 content.ts (all shared copy), forms.ts, analytics.ts, waitlist/ (validation, rate limit, Supabase)
+```
+
+### How things work
+
+- **Theme**: dark by default. An inline script in `<head>` reads `localStorage['saans-theme-v3']` before hydration.
+  Everything themes through CSS variables in `globals.css`.
+- **Popups**: `useModal().open('waitlist' | 'clinician' | 'college' | 'breath' | 'help' | 'film')`, or
+  `<ModalButton modal="…">` from server components. One `ModalShell` handles scrim, focus trap, Esc,
+  focus return, scroll lock, enter/exit animation and the phone bottom sheet.
+- **Forms**: `lib/forms.ts`. Waitlist forms → `/api/waitlist` → Supabase (`lib/waitlist/`). Clinician and college
+  forms → single POST to `NEXT_PUBLIC_FORM_ENDPOINT` with `type: clinician | college`.
+- **Smooth scrolling**: Lenis (`components/layout/SmoothScroll.tsx`), paused under popups; off for reduced motion.
+- **Hero intro**: `[data-intro]` CSS in `globals.css`, started by the `<head>` script once the heading font is ready.
+- **Reveal motion**: any element with `data-reveal="up|scale|fade"` (+ `data-reveal-delay`) animates in once.
+  Reduced motion turns all motion off.
+- **Analytics**: `lib/analytics.ts` pushes the README §12 events to `window.dataLayer`.
+- **Laptop zoom**: `.page{zoom:.86}` at 1000–1599px wide (and `.8`/`.74` on short screens), never on modals.
+
+## Before launch (placeholders)
+
+- `SUPABASE_URL`, `SUPABASE_SECRET_KEY`, `NEXT_PUBLIC_FORM_ENDPOINT` and `NEXT_PUBLIC_SITE_URL` (env vars)
+- The X / Instagram / LinkedIn links → `src/lib/content.ts`
+- Privacy policy and terms text
+- Film captions → put a `.vtt` in `public/film/` and set `FILM_CAPTIONS` in `src/components/modals/FilmModal.tsx`
+
+## Deploy
+
+Vercel: import the repo, defaults. Netlify: build `next build` (runtime auto-detected).
+Set the env vars above in the host's settings.
